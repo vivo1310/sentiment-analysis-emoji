@@ -1,0 +1,38 @@
+/* SentimentForm.css */
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button {
+  width: 90%;
+  padding: 10px;
+  background-color: #d48f4d;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #956437;
+}
+
+.sentiment-table {
+  border: 2px solid white;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.sentiment-table th,
+.sentiment-table td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}

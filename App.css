@@ -1,0 +1,18 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(42, 22, 22);
+  color: white;
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
