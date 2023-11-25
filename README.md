@@ -43,6 +43,7 @@ This architecture leverages the serverless nature of Google Cloud Functions, eli
 # Future consideration
   - As of now, the code is not auto deployed when there's changes (no CI/CD yet). So maybe I'll add a continuous deployment using Google Cloud Build.
   - I'm considering hooking up Google Cloud CDN to serve static files faster as well
+  - Automate infra task using Terraform
 
 # Live website
 ### 🔗 Source code - [GitHub](https://github.com/vivo1310/sentiment-analysis-emoji/)
