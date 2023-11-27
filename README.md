@@ -6,18 +6,18 @@ Using Google Natural Language API to map sentiment to emojis.
 
 ## Diagram
 ```
-+-------------------------+             +--------------------------+        +------------------------------+
-|     User's Web App      |             |  Google Cloud Function   |        |  Google Natural Language AI  |
-|                         +<----------->+                          +<------>+                              |
-|    [Built with React]   |             |     [Text to Emoji]      |        |     [Sentiment Analysis]     |
-+-------------------------+             +--------------------------+        +------------------------------+
++-------------------------+             +----------------------------+        +-------------------------------+
+|     User's Web App      |             |   Google Cloud Function    |        |   Google Natural Language AI  |
+|                         +<----------->+                            +<------>+                               |
+|    [Built with React]   |             |      [Text to Emoji]       |        |     [Sentiment Analysis]      |
++-------------------------+             +----------------------------+        +-------------------------------+
              |                                     
              |                                     
-+-------------------------------+
-|      Google Cloud Storage     |
-|                               |
-|    [Hosts Static Web App]     |
-+-------------------------------+
++---------------------------+
+|    Google Cloud Storage   |
+|                           |
+|  [Hosts Static Web App]   |
++---------------------------+
 ```
 ## Workflow
 
