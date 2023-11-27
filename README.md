@@ -5,8 +5,20 @@ Using Google Natural Language API to map sentiment to emojis.
 # Architecture Overview
 
 ## Diagram
-WIP
-
+```
++-------------------------+             +--------------------------+        +------------------------------+
+|     User's Web App      |             |  Google Cloud Function   |        |  Google Natural Language AI  |
+|                         +<----------->+                          +<------>+                              |
+|    [Built with React]   |             |     [Text to Emoji]      |        |     [Sentiment Analysis]     |
++-------------------------+             +--------------------------+        +------------------------------+
+             |                                     
+             |                                     
++-------------------------------+
+|      Google Cloud Storage     |
+|                               |
+|    [Hosts Static Web App]     |
++-------------------------------+
+```
 ## Workflow
 
 1. User inputs text in the web interface and submits it.
